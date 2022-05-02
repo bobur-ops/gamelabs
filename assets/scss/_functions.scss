@@ -1,0 +1,4 @@
+@function calculateVw($size) {
+  $vwSize: $size * 100 / 1440;
+  @return #{$vwSize}vw;
+}
